@@ -32,6 +32,9 @@ module.exports = function (config) {
         { type: 'text-summary' }
       ]
     },
+    angularCli: {
+      environment: 'dev'
+    },
     reporters: ['progress', 'kjhtml'],
     port: 9876,
     colors: true,
